@@ -7,12 +7,13 @@ CREATE DATABASE fintech;
 ~~~
 
 ### Database connection
-In `config.php` connect with database by instantiating `PDO`. 
-~~~php
+In `config.php` connect with database by instantiatin
+```PHP
 $host = "127.0.0.1";
 $db = "fintech";
 $username = "root";
 $passwd = "";
 $dns = "mysql:host=$host;dbname=$db";
 $options = [PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION];
-~~~
+```
+
